@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+#div1 {
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
+}
+
+#green {
+  height: 54%;
+  background-color: green;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#green p {
+    color: white;
+}
+
+#green a {
+    text-decoration: none;
+    color: #E2D300;
+}
+
+#black {
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    margin-top: 1.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#black1 {
+    width: 20%;
+    height: 50%;
+    color: white;
+    font-size: 12px;
+    margin: 10px 0 0 150px;
+}
+
+#black2 {
+    width: 20%;
+    height: 50%;
+    margin: 2px 0 0 0;
+}
+
+#div2 {
+    width: 100%;
+    height: 47%;
+    background-color: white;
+    box-shadow: 0 0 0.5px 0.2px gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+#white1 {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:25px;
+}
+
+#white1 h6 {
+    color: #BDD5C1;
+}
+
+#white2 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    margin-right: 150px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+#white2 a {
+    text-decoration: none;
+}
+
+.white2a {
+    color: #B5CE4E;
+}
+
+.white2b {
+    color: #89B8E5;
+}
+
+#white2 i {
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+#port {
+    width: 79.5%;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    margin: 20px 0 0 140px;
+    justify-content: space-between;
+}
+
+#port1 {
+    width: 10%;
+    height: 20px;
+}
+
+#port2 {
+    width: 12%;
+    height: 20px;
+}
+
+#port1 p {
+    font-size: 20px;
+    color: #747474;
+}
+
+#port2 a {
+    font-size: 10px;
+    color: #747474;
+    text-decoration: none;
+}
+
+#act {
+    width: 78%;
+    height:420px;
+    margin: 80px 0 0 150px;
+}
+
+#circle {
+    width: 27%;
+    height: 43px;
+    display: flex;
+}
+
+#div-text {
+    margin: 10px 0 0 15px;
+    font-size: 18px;
+    color: #747474;
+} 
+
+#big {
+    width: 46px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #A0CE4E;
+    position: relative;
+}
+
+#small {
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    margin: 11px 0 0 11px;
+    text-align: center;
+}
+
+#small p {
+    font-size: 20px;
+    color: #A0CE4E;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#free {
+    margin-top: 30px;
+}
+
+#free h3 {
+    color: #747474;
+}
+
+#free p {
+    margin-top: 20px;
+    color: #747474;
+    line-height: 27px;
+}
+
+#div-con p {
+    line-height: 40px;
+}
+
+#plan {
+    width: 80%;
+    height: 270px;
+    margin: 50px 0 0 150px;
+}
+
+#plan1 {
+    width: 99.5%;
+    height: 70px;
+    border: 1px solid #D9B917;
+    margin-bottom: 15px;
+    background-color: #FCF8E3;
+}
+
+#plan2 {
+    width: 99.5%;
+    height: 180px;
+    border: 1px solid #D9B917;
+    margin-top: 15px;
+    background-color: #FCF8E3; 
+}
+
+#plan1 .square, #plan2 .square {
+    margin-left: 1125px;
+    width: 18px;
+    height: 19px;
+    border: 1.5px solid #D9B917;
+    text-align: center;
+}
+
+.square p {
+    color: #D9B917;
+}
+
+#plan .plan1 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.plan1 a {
+    text-decoration: none;
+    line-height: 30px;
+    color: #333333;
+}
+
+.plan1 i {
+    font-size: 18px;
+    color: #D9B917;
+}
+
+#plan1 .plan1 a {
+    margin-left: 10px;
+}
+
+#plan2 .plan1 {
+    margin-top: 15px;
+}
+
+#corp {
+    width: 100%;
+    height: 400px;
+    background-color: #8BC34A;
+    margin-top: 70px;
+}
+
+#corp #div1 {
+    width: 100%;
+    height: 10px;
+    background-color: #8BC34A;
+}
+
+#corp #div2 {
+    width: 100%;
+    height: 360px;
+    background-color: #D8D8D8;
+}
+
+#coat-of-arm {
+    width: 20%;
+    height: 300px;
+    margin: 50px 0 0 180px;
+}
+
+#div2  p {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+#div3 {
+    width: 100%;
+    height: 50px;
+    background-color: #235E27;
+}
+
+#copy p {
+    font-size: 12px;
+    color: white;
+    width: 35%;
+    margin-left: 180px;
+    padding-top: 20px;
+}
+

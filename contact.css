@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+#div1 {
+    width: 100%;
+    height: 50%;
+    background-color: chartreuse;
+}
+
+#green {
+  height: 54%;
+  background-color: green;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#green p {
+    color: white;
+}
+
+#green a {
+    text-decoration: none;
+    color: #E2D300;
+}
+
+#black {
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    margin-top: 1.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#black1 {
+    width: 20%;
+    height: 50%;
+    color: white;
+    font-size: 12px;
+    margin: 10px 0 0 150px;
+}
+
+#black2 {
+    width: 20%;
+    height: 50%;
+    margin: 2px 0 0 0;
+}
+
+#div2 {
+    width: 100%;
+    height: 47%;
+    background-color: white;
+    box-shadow: 0 0 0.5px 0.2px gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+#white1 {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:25px;
+}
+
+#white1 h6 {
+    color: #BDD5C1;
+}
+
+#white2 {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    margin-right: 150px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+#white2 a {
+    text-decoration: none;
+}
+
+.white2a {
+    color: #B5CE4E;
+}
+
+.white2b {
+    color: #89B8E5;
+}
+
+#white2 i {
+    font-size: 10px;
+    margin-top: 4px;
+}
+
+.image {
+    width: 100%;
+    height: 410px;
+    margin-bottom: 50px;
+}
+
+.image img {
+    width: 100%;
+}
+
+nav {
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    margin: 150px 0 100px 500px;
+}
+
+nav p {
+    font-size: 50px;
+}
+
+section {
+    width: 80%;
+    height: 420px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#name {
+    width: 65%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    width: 99%;
+    height: 40px;
+    border: 1px solid #747474;
+}
+
+#name button {
+    width: 10%;
+    height: 36px;
+    margin-top: 15px;
+    background-color: #A0CE4E;
+    border: none;
+    color: white;
+}
+
+#contact {
+    width: 30%;
+    height: 420px;
+    background-color: white;
+    box-shadow: 0 0 15px 10px #EFEFEF;
+    border-radius: 10px;
+}
+
+#contact p {
+    font-size: 25px;
+    margin: 20px 0;
+    color: #747474;
+}
+
+#contact h4 {
+    font-weight: lighter;
+    color: #74747D;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#contact p, #contact h4 {
+    text-align: center;  
+}
+
+#one {
+    line-height: 45px;
+    margin-left: 40px;
+}
+
+#one i {
+    color: #A0CE4E;
+}
+
+#one a {
+    font-size: 19px;
+    margin-left: 10px;
+    color: #747474;
+    text-decoration: none;
+}
+
+#one #list a  {
+    text-decoration: none;
+    font-size: 13px;
+    color: #CECECE;
+    display: inline-block;
+}
+
+#img {
+    width: 100%;
+    height: 900px;
+    margin-top: 120px;
+    background-color: #E5E3DF;
+}
+
+#map {
+    width: 23%;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background-color: white;
+}
+
+#map p {
+    margin: 5px 0 0 15px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #747474;
+}
+
+#map .map {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.map button {
+    width: 55%;
+    height: 30px;
+    background-color: white;
+    box-shadow: 0 0 3px 2px #E5E3DF;
+    border: none;
+    color: blue;
+    margin-left: 70px;
+}
+
+#corp {
+    width: 100%;
+    height: 400px;
+    background-color: #8BC34A;
+}
+
+#corp #div1 {
+    width: 100%;
+    height: 10px;
+    background-color: #8BC34A;
+}
+
+#corp #div2 {
+    width: 100%;
+    height: 360px;
+    background-color: #D8D8D8;
+}
+
+#coat-of-arm {
+    width: 20%;
+    height: 300px;
+    margin: 50px 0 0 180px;
+}
+
+#div2  p {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+#div3 {
+    width: 100%;
+    height: 50px;
+    background-color: #235E27;
+}
+
+#copy p {
+    font-size: 12px;
+    color: white;
+    width: 35%;
+    margin-left: 180px;
+    padding-top: 20px;
+} 
