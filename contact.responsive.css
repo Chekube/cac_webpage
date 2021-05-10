@@ -1,0 +1,163 @@
+@media(max-width: 600px) {
+    
+    * {
+        margin: 0;
+    }
+
+    #container {
+        width: 100%;
+    }
+    
+    #div1 {    
+        height:310px;
+     }
+  
+      #green {
+          width: 66.5%;
+         height: 180px;
+         padding: 20px 100px;
+     }
+  
+     #green p {
+         font-size: 24px;
+     }
+     
+     #black {
+         width: 100%;
+         height: 100px;
+         display: block;
+         margin-top: -7px;
+      }
+  
+      #black1 {
+          width: 100%;
+          height: 25px;
+          border-bottom: 1px solid white;
+          font-size: 15px;
+          text-align: center;
+          margin: 10px 0 0 0;
+          padding-top: 10px;
+      }
+  
+      #black2 {
+          width: 100%;
+          height: 40px;
+          text-align: center;
+          padding-top: 8px;
+  
+      }
+  
+      #div2 {
+          width: 100%;
+          height: 120px;
+      }
+
+      #white1 {
+          width: 65%;
+          height: 100px;
+          margin-left: 15px;
+      }
+      #white1 img {
+          width: 80px;
+          margin-bottom: 20px;
+      }
+
+      #white1 label {
+          margin-top: 20px;
+          font-size: 15px;
+      }
+
+      span {
+          font-size: 15px;
+      }
+
+
+      #white2 {
+          display: none;
+      }
+
+      #bar {
+          display: block;
+      }
+
+      #bar:hover #mob-bar {
+        display: block;
+    }
+
+    .image {
+        margin-top: 231px;
+        height: 171px;
+    }
+
+    nav {
+        width: 70%;
+        margin-left: 80px;
+    }
+
+    section #name {
+        display: none;
+    }
+
+    section #contact {
+        width: 98%;
+        height: 500px;
+        margin-left: 20px;
+    }
+
+    #contact p {
+        font-size: 35px;
+    }
+    
+    #contact1 p {
+        font-size: 20px;
+    }
+
+    #one i {
+        font-size: 20px;
+    }
+
+    #contact #one a {
+        font-size: 25px;
+    }
+
+    #one #list a  {
+        font-size: 15px;
+        display: block;
+        line-height: 30px;
+    }
+
+    #map {
+        width: 80%;
+
+    }
+
+    #corp {
+        width: 100%;
+        height: 680px;
+    }
+
+    #corp #div2 {
+        height: 560px;
+    }
+
+    #coat-of-arm {
+        width: 40%;
+        margin: 50px 0 0 65px
+    }
+
+    #div2  p {
+        font-weight: lighter;
+    }
+
+    #div3 {
+    height: 120px;
+    }
+
+    #copy p {
+        width: 70%;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        margin-left: 65px;
+    }
+}    

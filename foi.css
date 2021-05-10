@@ -11,16 +11,18 @@ header {
     width: 100%;
     height: 200px;
     background-color: white;
+    position: relative;
 }
 
 #div1 {
     width: 100%;
-    height: 50%;
+    height: 100px;
     background-color: chartreuse;
 }
 
 #green {
-  height: 54%;
+  width: 100%;
+  height: 54px;
   background-color: green;
   padding-top: 10px;
   text-align: center;
@@ -37,7 +39,7 @@ header {
 
 #black {
     width: 100%;
-    height: 45%;
+    height: 45px;
     background-color: black;
     margin-top: 1.5px;
     display: flex;
@@ -46,7 +48,7 @@ header {
 
 #black1 {
     width: 20%;
-    height: 50%;
+    height: 23px;
     color: white;
     font-size: 12px;
     margin: 10px 0 0 150px;
@@ -54,37 +56,44 @@ header {
 
 #black2 {
     width: 20%;
-    height: 50%;
+    height: 22px;
     margin: 2px 0 0 0;
 }
 
 #div2 {
     width: 100%;
-    height: 47%;
+    height: 100px;
     background-color: white;
-    box-shadow: 0 0 0.5px 0.2px gray;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #9F9F9F;
 }
 
 #white1 {
     width: 30%;
-    height: 50%;
+    height: 50px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top:25px;
+    margin:25px 0 0 80px;
 }
 
-#white1 h6 {
+#white1 label {
+    margin-top: 10px;
     color: #BDD5C1;
+    font-size: 11.5px;
+}
+
+#white1 span {
+    letter-spacing: 6px;
+    color: #BDD5C1;
+    font-size: 10px;
 }
 
 #white2 {
     width: 50%;
-    height: 50%;
+    height: 50px;
     display: flex;
-    margin-right: 150px;
+    margin-left: 50px;
     justify-content: space-between;
     margin-top: 35px;
 }
@@ -104,6 +113,41 @@ header {
 #white2 i {
     font-size: 10px;
     margin-top: 4px;
+}
+
+#bar {
+    width: 70%;
+    height: 450px;
+    position: absolute;
+    margin: 30px 0 0 -80px;
+    display: none;
+}
+
+#barrs {
+    font-size: 20px;
+    color: #CACACA;
+}
+
+#mob-bar {
+   width: 100%;
+   height: 357px;
+   background-color: #F6F6F6;
+   position: absolute;
+   margin: 100px 0 0 -360px;
+   display: none; 
+}
+
+#mob-bar #one, #mob-bar #two, #mob-bar #three, #mob-bar #four, #mob-bar #five, #mob-bar #six, #mob-bar #seven {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #9F9F9F;
+    padding-top: 15px;
+}
+
+#mob-bar #one a, #mob-bar #two a, #mob-bar #three a, #mob-bar #four a, #mob-bar #five a, #mob-bar #six a, #mob-bar #seven a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
 }
 
 #port {
@@ -220,7 +264,7 @@ header {
 }
 
 #plan1 .square, #plan2 .square {
-    margin-left: 1125px;
+    margin-left: 1118px;
     width: 18px;
     height: 19px;
     border: 1.5px solid #D9B917;

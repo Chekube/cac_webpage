@@ -11,17 +11,18 @@ header {
     width: 100%;
     height: 200px;
     background-color: white;
+    position: relative;
 }
 
-header #div1 {
+#div1 {
     width: 100%;
-    height: 50%;
+    height: 100px;
     background-color: chartreuse;
-    
 }
 
 #green {
-  height: 54%;
+  width: 100%;
+  height: 54px;
   background-color: green;
   padding-top: 10px;
   text-align: center;
@@ -38,7 +39,7 @@ header #div1 {
 
 #black {
     width: 100%;
-    height: 45%;
+    height: 45px;
     background-color: black;
     margin-top: 1.5px;
     display: flex;
@@ -47,7 +48,7 @@ header #div1 {
 
 #black1 {
     width: 20%;
-    height: 50%;
+    height: 23px;
     color: white;
     font-size: 12px;
     margin: 10px 0 0 150px;
@@ -55,36 +56,44 @@ header #div1 {
 
 #black2 {
     width: 20%;
-    height: 50%;
+    height: 22px;
     margin: 2px 0 0 0;
 }
 
-#div2a {
+#div2 {
     width: 100%;
-    height: 47%;
+    height: 100px;
     background-color: white;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #9F9F9F;
 }
 
 #white1 {
     width: 30%;
-    height: 50%;
+    height: 50px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-top:25px;
+    margin:25px 0 0 80px;
 }
 
-#white1 h6 {
+#white1 label {
+    margin-top: 10px;
     color: #BDD5C1;
+    font-size: 11.5px;
+}
+
+#white1 span {
+    letter-spacing: 6px;
+    color: #BDD5C1;
+    font-size: 10px;
 }
 
 #white2 {
     width: 50%;
-    height: 50%;
+    height: 50px;
     display: flex;
-    margin-right: 150px;
+    margin-left: 50px;
     justify-content: space-between;
     margin-top: 35px;
 }
@@ -104,6 +113,41 @@ header #div1 {
 #white2 i {
     font-size: 10px;
     margin-top: 4px;
+}
+
+#bar {
+    width: 70%;
+    height: 450px;
+    position: absolute;
+    margin: 30px 0 0 -80px;
+    display: none;
+}
+
+#barrs {
+    font-size: 20px;
+    color: #CACACA;
+}
+
+#mob-bar {
+   width: 100%;
+   height: 357px;
+   background-color: #F6F6F6;
+   position: absolute;
+   margin: 100px 0 0 -360px;
+   display: none; 
+}
+
+#mob-bar #one, #mob-bar #two, #mob-bar #three, #mob-bar #four, #mob-bar #five, #mob-bar #six, #mob-bar #seven {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #9F9F9F;
+    padding-top: 15px;
+}
+
+#mob-bar #one a, #mob-bar #two a, #mob-bar #three a, #mob-bar #four a, #mob-bar #five a, #mob-bar #six a, #mob-bar #seven a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
 }
 
 .resource {
@@ -160,11 +204,10 @@ input {
 
 #procedure {
     width: 49%;
-    height: 800px;
-    margin-top: 70px;
+    height: 630px;
     display: flex;
     justify-content: space-between;
-    margin-left: 145px;
+    margin: 70px 0 0 145px;
 }
 
 #company {
@@ -179,11 +222,13 @@ input {
     margin-bottom: 10px;
 }
 
-#company #div1 button, #company #div2i button, #company #div3 button{
+
+
+#company #div1i button, #company #div2i button, #company #div3 button{
     width: 95%;
     height: 35px;
     background-color: #0E4CAD;
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     margin: 10px 0 30px 0;
 }
@@ -203,12 +248,8 @@ input {
     height: 700px;
 }
 
-.bold {
-    font-weight: 700;
-}
-
-#service p {
-    font-size: 45px;
+#service #text p {
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -216,7 +257,7 @@ input {
     width: 30%;
     height: 35px;
     background-color: #C1E1FC;
-    border-radius:20px;
+    border-radius: 30px;
     border: none;
     margin-top: 15px;
 }
@@ -225,52 +266,49 @@ input {
     text-decoration: none;
 }
 
-#text h4 {
+.text #text1 p {
+    font-size: 15px;
     font-weight: lighter;
     color: #7474A1;
     margin-top: 30px;
 }
 
-#text2 p {
-    font-size: 16px;
-    text-decoration: underline;
+.text #text2 p {
+    font-size: 18px;
+    text-decoration: underline black;
     color: #FF6600;
 }
 
-#text2 h4 {
+.text #text3 p {
     line-height: 39px;
+    color: #7474A1;
+    text-decoration: none;
 }
 
 #app {
-    width: 23%;
+    width: 28%;
     height: 900px;
-    margin: 30px 0 0 145px;
+    margin: 0 0 0 145px;
 }
 
 #app p {
-    font-size: 13px;
-    color: #7474A1;
-}
-
-#app #div1 p {
     font-size: 45px;
     font-weight: lighter;
     color: #2196F3;
-    margin: 50px 0 30px 0;
 }
 
 #app #ann {
     margin-top: 70px;
 }
 
-#ann h4 {
-    color: #333333;
-}
-
-#app #ann  p {
+#app #ann p {
     font-size: 15px;
     color: #333333;
-    line-height: 34px;
+    line-height: 30px;
+}
+
+#app #ann2 p {
+    line-height: 38px;
 }
 
 #rect {
@@ -297,31 +335,31 @@ input {
     width: 100%;
     height: 400px;
     background-color: #8BC34A;
-    margin-top: 70px;
 }
 
 #corp #div1 {
     width: 100%;
     height: 10px;
+    margin-top: 70px;
     background-color: #8BC34A;
 }
 
 #corp #div2 {
     width: 100%;
-    height: 320px;
+    height: 360px;
     background-color: #D8D8D8;
-    padding-top: 40px;
 }
 
 #coat-of-arm {
     width: 20%;
     height: 300px;
-    margin-left: 150px;
+    margin: 40px 0 0 180px;
 } 
 
 #div2  p {
     color: #000000;
     font-size: 15px;
+    font-weight: bold;
     line-height: 25px;
 }
 
@@ -337,4 +375,8 @@ input {
     width: 35%;
     margin-left: 180px;
     padding-top: 20px;
+}
+
+.bold {
+    font-weight: 700;
 }

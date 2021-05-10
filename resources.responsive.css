@@ -1,0 +1,263 @@
+
+
+@media(max-width: 600px) {
+    
+    * {
+        margin: 0;
+    }
+
+    #container {
+        width: 100%;
+    }
+    
+    #div1 {    
+        height:310px;
+     }
+  
+      #green {
+          width: 66.5%;
+         height: 180px;
+         padding: 20px 100px;
+     }
+  
+     #green p {
+         font-size: 24px;
+     }
+     
+     #black {
+         width: 100%;
+         height: 100px;
+         display: block;
+         margin-top: -7px;
+      }
+  
+      #black1 {
+          width: 100%;
+          height: 25px;
+          border-bottom: 1px solid white;
+          font-size: 15px;
+          text-align: center;
+          margin: 10px 0 0 0;
+          padding-top: 10px;
+      }
+  
+      #black2 {
+          width: 100%;
+          height: 40px;
+          text-align: center;
+          padding-top: 8px;
+  
+      }
+  
+      #div2 {
+          width: 100%;
+          height: 120px;
+      }
+
+      #white1 {
+          width: 65%;
+          height: 100px;
+          margin-left: 15px;
+      }
+      #white1 img {
+          width: 80px;
+          margin-bottom: 20px;
+      }
+
+      #white1 label {
+          margin-top: 20px;
+          font-size: 15px;
+      }
+
+      span {
+          font-size: 15px;
+      }
+
+
+      #white2 {
+          display: none;
+      }
+
+      #bar {
+          display: block;
+      }
+
+      #bar:hover #mob-bar {
+        display: block;
+    }
+
+    .resource {
+        margin-top: 230px;
+        height: 140px;
+        display: block;
+    }
+
+    #resource {
+        width: 24%;
+        height: 40px;
+        margin: 10px 0 0 30px;
+        font-size: 35px;
+        padding-top: 8px;
+    }
+
+    .search {
+        width: 85%;
+        height: 70px;
+        display: flex;
+        margin: 0 0 0 30px;
+    }
+
+    #search {
+        width: 100%;
+        height: 70px;
+        border: 1px solid #c8c3c3;
+    }
+
+    input {
+        width: 70%;
+        height: 60px;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    #button {
+        width: 15%;
+        height: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #button i {
+        margin-top: 22px;
+    }
+
+    #procedure {
+        width: 90%;
+        height: 1550px;
+        margin: 120px 0 0 50px;
+        display: block;
+    }
+
+    #company {
+        width: 95%;
+        height: 780px;
+    }
+
+    #company p {
+        font-size: 55px;
+        margin-bottom: 30px;
+    }
+
+    #company #div1i button, #company #div2i button, #company #div3 button {
+        height: 55px;
+        width: 70%;
+    }
+
+    #company #div2i button {
+        width: 52%;
+    }
+
+
+    #company #div3 button {
+        width: 40%;
+    }
+
+    #company #div1i button a, #company #div2i button a, #company #div3 button a {
+        font-size: 20px;
+    }
+
+    #company #div2i, #company #div3 {
+        margin-top: 25px;
+    }
+
+    #service {
+        width: 96%;
+        height: 770px;
+    }
+
+    #service #text p {
+        font-size: 55px;
+    }
+
+    #service button {
+        width: 45%;
+        height: 55px;
+        margin-top: 30px;
+    }
+
+    #service button a {
+        font-size: 20px;
+    }
+
+    .text #text1 p, .text #text3 p {
+        font-size: 22px;
+        color: black;
+        font-weight: lighter;
+        line-height: 30px;
+    }
+
+    .text #text2 p {
+        font-size: 25px;
+    }
+
+    .text #text3 p {
+        height: 200px;
+        line-height: 70px;
+    }
+
+    #app {
+        width: 90%;
+        height: 1400px;
+        margin: 90px 0 0 50px;
+    }
+
+    #app p {
+        font-size: 55px;
+    }
+
+    #app #ann p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #app #ann2 p {
+        line-height: 60px;
+    }
+
+    #rect {
+        width: 90%;
+        height: 80px;
+        margin: 25px 0 0 40px;
+    }
+
+    #corp {
+        width: 100%;
+        height: 680px;
+    }
+
+    #corp #div2 {
+        height: 560px;
+    }
+
+    #coat-of-arm {
+        width: 40%;
+        margin: 50px 0 0 65px
+    }
+
+    #div2  p {
+    font-weight: lighter;
+    margin-top: 20px;
+    }
+
+    #div3i {
+    height: 120px;
+    }
+
+    #copy p {
+        width: 70%;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        margin-left: 65px;
+    }
+}
